@@ -79,3 +79,19 @@ pr /=100;
 sum *= (1 + pr) * countM;
 console.log(sum);
 //6, 11, 12, 13, 16 - cam.
+//2:24
+let user_value;
+user_value = +prompt();
+if (user_value%2==0 && user_value>=100) {
+    user_value /=2;
+} else {
+    user_value *= 3;
+}
+
+let i,
+str = ''; 
+for (i = 1; i <= 10; i++) {
+    str = str + '*';
+   }
+      console.log(str);
+
